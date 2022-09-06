@@ -42,4 +42,23 @@ nav li a {
     text-decoration: none;
 }
 
+/*Used to style navigation menu items when mouse moved over item*/
+nav li a:hover {
+    background-color: #00431F;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* ADDED BY ME */
+.n-thumb{
+    width: 900px;
+    height: auto;
 
+
+    /* Background image for introduction section */
+#homepage {
+    background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    top: 0px;
+}
