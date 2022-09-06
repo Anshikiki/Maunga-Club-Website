@@ -54,11 +54,102 @@ nav li a:hover {
     width: 900px;
     height: auto;
 
-
-    /* Background image for introduction section */
+}
+/* Background image for introduction section */
 #homepage {
     background: black url(../img/maunga_club_cabin.jpg) no-repeat center;
     background-size: cover;
     height: 100vh;
     top: 0px;
+}
+   
+/* Background colour for chalets section */
+#chalets {
+    background: rgba(160, 180, 255 , 0.12);
+}
+
+/* Background colour for contact section */
+#contact {
+    background: rgba(0,67,31,0.12);
+}
+
+h1,
+h2,
+h3,
+nav,
+.button,
+.contact-button {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 4.3em;
+}
+
+h2,
+h3 {
+    font-size: 2.3em;
+}
+
+.intro-block {
+    background: rgba(0,0,0,0.65);
+    margin: 0 auto;
+    padding: 15px 35px;
+    text-align: center;
+}
+
+.intro-wrap {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    text-align: left;
+    width:100%;
+}
+
+#about,
+#chalets,
+#gallery-area,
+#contact,
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about,
+#chalets,
+#gallery-area,
+#contact {
+    min-height: 100vh;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+#before-footer {
+    background-color: #FF5B00;
+    color: white;
+}
+
+.button {
+    color: white;
+    border: 3px solid white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 30px 5px;
+    min-width: 150px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.contact-button {
+    border: 3px solid #00431F;
+    color: #00431F;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 30px 5px;
+    min-width: 150px;
+    padding: 10px 15px;
+    text-decoration: none;
 }
