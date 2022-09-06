@@ -203,3 +203,10 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
 }
+
+/*Used for single column layout for different services*/
+.single-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin: 0 auto;
