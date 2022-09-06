@@ -196,3 +196,10 @@ footer {
     margin: 0 auto;
 }
 
+/*Used for two column layout for Contact section*/
+.two-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 0 auto;
+}
