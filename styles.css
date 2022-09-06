@@ -1,51 +1,45 @@
 body {
-    font-family: 'Arial', sans-serif;
+    color: #eb0f0f;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #ffb703;
 }
 
 header {
-    background-color: #00aeff;
-    height: 100px;
-    margin-bottom: 30px;
+    background: #000000;
+    position: fixed; /* Used to create sticky menu */
     text-align: left;
     width: 100%;
+    z-index: 999; /*Ensure header is always visible on top of all other elements */
 }
 
 .logo {
-    padding: 5px 50px;
-    width: 200px;
+    padding: 10px 0px 10px 50px;
+    width: 250px;
 }
 
 nav {
     color: white;
     float: right;
-    padding: 40px 50px 0px 0px;
+    padding: 30px 50px 0px 0px;
 }
 
-.hero-img {
-    width: 800px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-size: 40px;
+nav li {
+    display: inline-block;
 }
 
-.button {
-    color: #003b63; 
-    font-size: 19px;    
-    margin: 30px 5px;
-    padding: 15px 15px;
-}
-
-footer {
-    background-color: #ed107f;
+nav li a {
     color: white;
-    margin-top: 40px;
-    padding: 30px 0px;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
 
 
