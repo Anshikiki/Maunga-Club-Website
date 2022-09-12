@@ -1,5 +1,5 @@
 body {
-    color: #eb0f0f;
+    color: #1d678a;
     font-family: 'Heebo', sans-serif;
     font-size: 1.5em;
     margin: 0;
@@ -20,8 +20,10 @@ header {
     width: 250px;
 }
 
+
+
 nav {
-    color: white;
+    color: rgb(7, 0, 4);
     float: right;
     padding: 30px 50px 0px 0px;
 }
@@ -37,14 +39,15 @@ nav li {
 }
 
 nav li a {
-    color: white;
+    color: #ffffff;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+
 /*Used to style navigation menu items when mouse moved over item*/
 nav li a:hover {
-    background-color: #00431F;
+    background-color: #ffffff;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -65,13 +68,24 @@ nav li a:hover {
 
 /* Background colour for chalets section */
 #chalets {
-    background: rgba(160, 180, 255 , 0.12);
+    background: rgba(102, 200, 224, 0.12);
 }
 
 /* Background colour for contact section */
 #contact {
-    background: rgba(0,67,31,0.12);
+    background: rgba(102, 200, 224, 0.12);
 }
+
+/* Background colour for information section */
+#Information {
+    background: rgba(102, 200, 224, 0.12);
+}
+
+/* Background colour for index section */
+#HOME {
+    background: rgba(102, 200, 224, 0.12);
+}
+
 
 h1,
 h2,
@@ -92,16 +106,18 @@ h3 {
 }
 
 .intro-block {
-    background: rgba(0,0,0,0.65);
+    background: rgba(0, 0, 0, 0.45);
     margin: 0 auto;
     padding: 15px 35px;
     text-align: center;
 }
 
+
+
 .intro-wrap {
     position: absolute;
     bottom: 0px;
-    color: white;
+    color: whitesmoke;
     text-align: left;
     width:100%;
 }
@@ -129,12 +145,12 @@ footer {
 
 #before-footer {
     background-color: #FF5B00;
-    color: white;
+    color: wheat
 }
 
 .button {
-    color: white;
-    border: 3px solid white;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 254, 254);
     font-size: 1.2em;
     font-weight: bold;
     margin: 30px 5px;
@@ -144,8 +160,8 @@ footer {
 }
 
 .contact-button {
-    border: 3px solid #00431F;
-    color: #00431F;
+    border: 3px solid #1d678a;
+    color: #1d678a;
     font-size: 1.2em;
     font-weight: bold;
     margin: 30px 5px;
@@ -156,14 +172,14 @@ footer {
 
 /* Styling for when mouse hovered over button in intro section*/
 .intro-wrap .button:hover {
-    border: 3px solid #FF5B00;
-    color: #FF5B00;
+    border: 3px solid #1d678a;
+    color: #1d678a;
 }
 
 /* Styling for when mouse hovered over Email button at bottom of page*/
 .contact-button:hover {
-    background-color: #00431F;
-    border: 3px solid #FF5B00;
+    background-color: #1d678a;
+    border: 3px solid #1d678a;
     color: white;
 }
 
@@ -179,7 +195,7 @@ section a {
 }
 
 footer {
-    background-color: #00431F;
+    background-color: #000000;
     color: white;
 }
 
@@ -210,3 +226,5 @@ footer {
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin: 0 auto;
+}
+    
